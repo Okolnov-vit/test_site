@@ -69,18 +69,23 @@
         </div>
     </div>
     <div class="sum_towar">К оплате: 6 825 ₽ </div>
-   <div class="adres">
-    <p>Введите адрес доставки:</p>
-    <input type="adres_input" name="adre" />
-   </div>
-   <div class="nomber_tele">
-    <p>Введите номер телефона:</p>
-    <input type="nomber_input" name="nom" />
-   </div>
-   <button class="oplata">
-    <text_button>Оплатить</text_button>
+    <form action=""class="form" id="add-form"> 
+        <div class="adres">
+            <p>Введите адрес доставки:</p>
+            <input type="adres_input" class="js-inpyt" name="adre"  id="nom_adres" />
+           </div>
+           <div class="nomber_tele">
+            <p>Введите номер телефона:</p>
+            <input type="nomber_input" class="js-inpyt"  name="nom" id="nom_tel" />
+           </div>
+           <button type="submit"   class="oplata">
+            <text_button>Оплатить</text_button>
+        
+           </button>
 
-   </button>
+
+    </form>
+   
     <footer class="foote">
         <div class="group">
             <div class="logo_foote">
@@ -113,5 +118,7 @@
         </div>
         
       </footer>
+      
+      <script src="JavaScript/add.js"></script>
 </body>
 </html>
